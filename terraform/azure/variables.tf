@@ -8,11 +8,6 @@ variable "resource_location" {
   default = "westeurope"
 }
 
-variable "resource_tag" {
-  type    = string
-  default = "itavsa-tf"
-}
-
 variable "db_version" {
   type    = string
   default = "14"
